@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>שוויץ 2026</title>
+<meta name="theme-color" content="#DC291E">
+<link rel="manifest" href="manifest.json">
+<link rel="apple-touch-icon" href="icons/icon-192.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="topbar">
+  <span class="topbar__title">בית</span>
+  <button class="icon-btn" id="themeToggle" aria-label="החלף מצב תצוגה"></button>
+</header>
+
+<main class="page" id="app">
+  <div class="hero">
+    <div class="hero__eyebrow" id="heroEyebrow">טוען…</div>
+    <h1 class="hero__title" id="heroTitle">שוויץ ואיטליה 2026</h1>
+    <div class="hero__dates" id="heroDates">26.7 – 5.8.2026</div>
+
+    <div class="board" id="board">
+      <!-- filled by JS -->
+    </div>
+  </div>
+
+  <div class="grid-actions">
+    <a class="action-card action-card--primary action-card--wide" id="todayLink" href="day.html">
+      <span class="action-card__icon" id="iconToday"></span>
+      <span class="action-card__label" id="todayLinkLabel">היום בטיול</span>
+    </a>
+    <a class="action-card" href="days.html">
+      <span class="action-card__icon" id="iconDays"></span>
+      <span class="action-card__label">כל הימים</span>
+    </a>
+    <a class="action-card" href="hotels.html">
+      <span class="action-card__icon" id="iconHotels"></span>
+      <span class="action-card__label">מלונות</span>
+    </a>
+    <a class="action-card" href="parking.html">
+      <span class="action-card__icon" id="iconParking"></span>
+      <span class="action-card__label">חניה וניווט</span>
+    </a>
+    <a class="action-card" href="info.html">
+      <span class="action-card__icon" id="iconInfo"></span>
+      <span class="action-card__label">מידע חשוב</span>
+    </a>
+  </div>
+
+  <div class="card" id="weatherNote" style="display:none;"></div>
+</main>
+
+<script src="js/icons.js"></script>
+<script src="js/common.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
