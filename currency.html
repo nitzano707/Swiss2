@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>מחשבון מטבע — שוויץ 2026</title>
+<meta name="theme-color" content="#DC291E">
+<link rel="manifest" href="manifest.json">
+<link rel="apple-touch-icon" href="icons/icon-192.png">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="topbar">
+  <a class="topbar__back" href="index.html" id="backIcon"></a>
+  <span class="topbar__title">המרת מטבע</span>
+  <div class="topbar__actions">
+    <button class="icon-btn icon-btn--text" id="fontDec" aria-label="הקטן טקסט">א-</button>
+    <button class="icon-btn icon-btn--text" id="fontInc" aria-label="הגדל טקסט">א+</button>
+    <button class="icon-btn" id="themeToggle" aria-label="החלף מצב תצוגה"></button>
+  </div>
+</header>
+
+<main class="page">
+  <div class="card fx-card">
+    <div class="fx-input-row">
+      <input type="number" inputmode="decimal" id="fxAmount1" value="100">
+      <select id="fxCcy1">
+        <option value="CHF">CHF</option>
+        <option value="EUR">EUR</option>
+        <option value="ILS">₪ ILS</option>
+      </select>
+    </div>
+
+    <button class="fx-swap" id="fxSwap" aria-label="החלף כיוון"></button>
+
+    <div class="fx-input-row">
+      <input type="number" inputmode="decimal" id="fxAmount2" value="0">
+      <select id="fxCcy2">
+        <option value="ILS" selected>₪ ILS</option>
+        <option value="CHF">CHF</option>
+        <option value="EUR">EUR</option>
+      </select>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="eyebrow mb-0">שערים (ניתן לערוך ידנית)</div>
+    <div class="fx-rate-edit">
+      <div>
+        <label>1 CHF = ₪</label>
+        <input type="number" inputmode="decimal" id="rateCHF" step="0.01">
+      </div>
+      <div>
+        <label>1 EUR = ₪</label>
+        <input type="number" inputmode="decimal" id="rateEUR" step="0.01">
+      </div>
+    </div>
+    <button class="btn btn--full" id="refreshRates" style="margin-top:14px;"><span id="refreshIcon"></span> עדכן שערים עכשיו</button>
+    <div class="wx-updated" id="ratesUpdated"></div>
+  </div>
+</main>
+
+<script src="js/icons.js"></script>
+<script src="js/common.js"></script>
+<script src="js/currency.js"></script>
+</body>
+</html>

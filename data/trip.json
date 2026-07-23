@@ -8,10 +8,16 @@
       "date": "2026-08-05",
       "time": "13:05",
       "route": "מילאנו מלפנסה ← תל אביב",
-      "carReturn": "Locauto, Malpensa Terminal 2 — עד 10:00"
+      "carReturn": "Locauto, Malpensa Terminal 2 — לתכנן החזרה כ-09:00–09:30 (ההזמנה עצמה רשומה עד 15:00)"
     }
   },
 
+  "weatherRegions": [
+    { "id": "champfer", "label": "שאמפר / סנט מוריץ", "lat": 46.4908, "lon": 9.8355 },
+    { "id": "zurich", "label": "ציריך", "lat": 47.3769, "lon": 8.5417 },
+    { "id": "locarno", "label": "לוקרנו", "lat": 46.1712, "lon": 8.7994 },
+    { "id": "stresa", "label": "סטרזה", "lat": 45.8825, "lon": 8.5397 }
+  ],
   "hotels": [
     {
       "id": "champfer",
@@ -74,35 +80,162 @@
       "notes": "אושר להיכנס לפני 14:00 ולהניח מזוודות בצד שמאל מול הארון, באמצעות קוד לוח מקשים. מומלץ לשמור את הקוד רק בהודעת Booking/WhatsApp ולא להעביר הלאה."
     }
   ],
-
   "parking": [
-    { "id": "malpensa", "name": "Locauto — Malpensa Terminal 2", "location": "נמל התעופה מילאנו מלפנסה", "price": "", "hours": "", "notes": "איסוף והחזרת הרכב", "wazeQuery": "Locauto Milano Malpensa Airport Terminal 2" },
-    { "id": "poschiavo", "name": "חניה ציבורית ליד Palazzo De Bassus-Mengotti", "location": "Poschiavo", "price": "", "hours": "", "notes": "חניה ציבורית סמוכה לכיכר המרכזית", "wazeQuery": "Palazzo De Bassus-Mengotti, Via da Spultri, 7742 Poschiavo" },
-    { "id": "morteratsch", "name": "חניית שביל הקרחון", "location": "Morteratsch", "price": "בתשלום", "hours": "", "notes": "כדאי כרטיס אשראי או מטבעות", "wazeQuery": "Hotel Morteratsch, Via Morteratsch 70, 7504 Pontresina" },
-    { "id": "sils", "name": "Parkhaus Sils", "location": "Sils Maria", "price": "", "hours": "", "notes": "", "wazeQuery": "Parkhaus Sils, Via Fedacla 1, 7514 Sils/Segl Maria" },
-    { "id": "maloja", "name": "Mehrzweckhalle Maloja", "location": "Maloja", "price": "", "hours": "", "notes": "לכיוון הבורות הקרחוניים, כ־6 דק' הליכה", "wazeQuery": "Mehrzweckhalle Maloja, 7516 Maloja" },
-    { "id": "soglio", "name": "חניית Plazzüra", "location": "Soglio", "price": "", "hours": "", "notes": "לעקוב אחרי השילוט המקומי. אם מלא: R&P ב־Stampa או Vicosoprano + אוטובוס לכפר", "wazeQuery": "Soglio, 7610 Bregaglia, Switzerland" },
-    { "id": "zurich-hotel", "name": "חניית המלון (Sihlcity)", "location": "ציריך", "price": "35 CHF/לילה", "hours": "", "notes": "לא ניתן להזמין מראש. גיבוי: חניון ציבורי סמוך, 38 CHF/לילה", "wazeQuery": "Sihlcity, Kalanderplatz 1, 8045 Zürich" },
-    { "id": "guarda", "name": "חניה ציבורית בכניסה לכפר", "location": "Guarda", "price": "בתשלום", "hours": "", "notes": "הכפר כמעט נטול מכוניות", "wazeQuery": "Guarda, 7545 Guarda-Scuol" },
-    { "id": "luzern", "name": "Bahnhofparking P1", "location": "לוצרן", "price": "", "hours": "24 שעות", "notes": "377 מקומות, גובה כניסה מרבי 2.10 מ׳. כ־5 דק' הליכה לעיר העתיקה", "wazeQuery": "Bahnhofplatz 1, 6002 Luzern" },
-    { "id": "locarno-main", "name": "חניית המתחם (Schloss Locarno)", "location": "לוקרנו", "price": "חינם", "hours": "", "notes": "16 מקומות ל־22 דירות, ללא הזמנה, לפי מקום פנוי", "wazeQuery": "Via Bartolomeo Rusca 9, 6600 Locarno" },
-    { "id": "castello-centro", "name": "Castello Centro (גיבוי)", "location": "לוקרנו", "price": "20 CHF/יום", "hours": "", "notes": "חניון ציבורי, כ־5 דק' הליכה", "wazeQuery": "Castello Centro, Locarno" },
-    { "id": "verzasca", "name": "Parkingcard Verzasca", "location": "עמק ורזסקה", "price": "12 CHF/יום", "hours": "", "notes": "תקף בחניוני P ירוק לאורך העמק. לרכוש ב־Verzasca Diga Shop Info ליד הסכר (הכי נוח למסלול)", "wazeQuery": "Diga della Verzasca" },
-    { "id": "stresa-main", "name": "Piazza Capucci", "location": "סטרזה", "price": "חינם", "hours": "", "notes": "חניה ציבורית, ללא מקום שמור. גישה דרך Via Giacomo Filippo Bolongaro", "wazeQuery": "Piazza Capucci, Stresa" },
-    { "id": "stresa-backup", "name": "Parcheggio Palacongressi (גיבוי)", "location": "סטרזה", "price": "לא ידוע — לבדוק בכניסה", "hours": "", "notes": "אם Piazza Capucci מלאה: להוריד מזוודות, לנסוע לכאן ולבדוק מחיר/שעות בשילוט", "wazeQuery": "Parcheggio Palacongressi, Stresa" }
+    {
+      "id": "malpensa",
+      "name": "Locauto — Malpensa Terminal 2",
+      "location": "נמל התעופה מילאנו מלפנסה",
+      "price": "",
+      "hours": "",
+      "notes": "איסוף והחזרת הרכב",
+      "wazeQuery": "Locauto Milano Malpensa Airport Terminal 2"
+    },
+    {
+      "id": "poschiavo",
+      "name": "חניה ציבורית ליד Palazzo De Bassus-Mengotti",
+      "location": "Poschiavo",
+      "price": "",
+      "hours": "",
+      "notes": "חניה ציבורית סמוכה לכיכר המרכזית",
+      "wazeQuery": "Palazzo De Bassus-Mengotti, Via da Spultri, 7742 Poschiavo"
+    },
+    {
+      "id": "morteratsch",
+      "name": "חניית שביל הקרחון",
+      "location": "Morteratsch",
+      "price": "בתשלום",
+      "hours": "",
+      "notes": "כדאי כרטיס אשראי או מטבעות",
+      "wazeQuery": "Hotel Morteratsch, Via Morteratsch 70, 7504 Pontresina"
+    },
+    {
+      "id": "sils",
+      "name": "Parkhaus Sils",
+      "location": "Sils Maria",
+      "price": "",
+      "hours": "",
+      "notes": "",
+      "wazeQuery": "Parkhaus Sils, Via Fedacla 1, 7514 Sils/Segl Maria"
+    },
+    {
+      "id": "maloja",
+      "name": "Mehrzweckhalle Maloja",
+      "location": "Maloja",
+      "price": "",
+      "hours": "",
+      "notes": "לכיוון הבורות הקרחוניים, כ־6 דק' הליכה",
+      "wazeQuery": "Mehrzweckhalle Maloja, 7516 Maloja"
+    },
+    {
+      "id": "soglio",
+      "name": "חניית Plazzüra",
+      "location": "Soglio",
+      "price": "",
+      "hours": "",
+      "notes": "לעקוב אחרי השילוט המקומי. אם מלא: R&P ב־Stampa או Vicosoprano + אוטובוס לכפר",
+      "wazeQuery": "Soglio, 7610 Bregaglia, Switzerland"
+    },
+    {
+      "id": "zurich-hotel",
+      "name": "חניית המלון (Sihlcity)",
+      "location": "ציריך",
+      "price": "35 CHF/לילה",
+      "hours": "",
+      "notes": "לא ניתן להזמין מראש. גיבוי: חניון ציבורי סמוך, 38 CHF/לילה",
+      "wazeQuery": "Sihlcity, Kalanderplatz 1, 8045 Zürich"
+    },
+    {
+      "id": "guarda",
+      "name": "חניה ציבורית בכניסה לכפר",
+      "location": "Guarda",
+      "price": "בתשלום",
+      "hours": "",
+      "notes": "הכפר כמעט נטול מכוניות",
+      "wazeQuery": "Guarda, 7545 Guarda-Scuol"
+    },
+    {
+      "id": "luzern",
+      "name": "Bahnhofparking P1",
+      "location": "לוצרן",
+      "price": "",
+      "hours": "24 שעות",
+      "notes": "377 מקומות, גובה כניסה מרבי 2.10 מ׳. כ־5 דק' הליכה לעיר העתיקה",
+      "wazeQuery": "Bahnhofplatz 1, 6002 Luzern"
+    },
+    {
+      "id": "locarno-main",
+      "name": "חניית המתחם (Schloss Locarno)",
+      "location": "לוקרנו",
+      "price": "חינם",
+      "hours": "",
+      "notes": "16 מקומות ל־22 דירות, ללא הזמנה, לפי מקום פנוי",
+      "wazeQuery": "Via Bartolomeo Rusca 9, 6600 Locarno"
+    },
+    {
+      "id": "castello-centro",
+      "name": "Castello Centro (גיבוי)",
+      "location": "לוקרנו",
+      "price": "20 CHF/יום",
+      "hours": "",
+      "notes": "חניון ציבורי, כ־5 דק' הליכה",
+      "wazeQuery": "Castello Centro, Locarno"
+    },
+    {
+      "id": "verzasca",
+      "name": "Parkingcard Verzasca",
+      "location": "עמק ורזסקה",
+      "price": "12 CHF/יום",
+      "hours": "",
+      "notes": "תקף בחניוני P ירוק לאורך העמק. לרכוש ב־Verzasca Diga Shop Info ליד הסכר (הכי נוח למסלול)",
+      "wazeQuery": "Diga della Verzasca"
+    },
+    {
+      "id": "stresa-main",
+      "name": "Piazza Capucci",
+      "location": "סטרזה",
+      "price": "חינם",
+      "hours": "",
+      "notes": "חניה ציבורית, ללא מקום שמור. גישה דרך Via Giacomo Filippo Bolongaro",
+      "wazeQuery": "Piazza Capucci, Stresa"
+    },
+    {
+      "id": "stresa-backup",
+      "name": "Parcheggio Palacongressi (גיבוי)",
+      "location": "סטרזה",
+      "price": "לא ידוע — לבדוק בכניסה",
+      "hours": "",
+      "notes": "אם Piazza Capucci מלאה: להוריד מזוודות, לנסוע לכאן ולבדוק מחיר/שעות בשילוט",
+      "wazeQuery": "Parcheggio Palacongressi, Stresa"
+    }
   ],
-
   "info": {
     "emergency": [
-      { "label": "חירום כללי (שוויץ ואיטליה)", "value": "112" },
-      { "label": "משטרה — שוויץ", "value": "117" },
-      { "label": "אמבולנס — שוויץ", "value": "144" }
+      {
+        "label": "חירום כללי (שוויץ ואיטליה)",
+        "value": "112"
+      },
+      {
+        "label": "משטרה — שוויץ",
+        "value": "117"
+      },
+      {
+        "label": "אמבולנס — שוויץ",
+        "value": "144"
+      }
     ],
     "car": {
       "company": "Locauto",
-      "pickup": "Malpensa Terminal 2 — 26.7 בשעה 15:00",
-      "dropoff": "Malpensa Terminal 2 — 5.8 עד 10:00",
-      "notes": "לפני מסירת הרכב: לצלם מכל הצדדים, את מד הדלק ואת הקילומטראז', ולהוציא את כל החפצים מתא המטען. יש לבדוק יום קודם מאיזה טרמינל יוצאת הטיסה — אם מטרמינל 1, יש לעבור בשאטל של שדה התעופה אחרי החזרת הרכב."
+      "driver": "נהג ראשי: ניצן אליקים",
+      "bookingRef": "מספר שובר: 720806876 · מספר אישור הזמנה מ-Locauto: 157843877-2026",
+      "vehicle": "רכב שטח בינוני — Nissan Qashqai או דומה לו · אוטומטי · ממוזג · 5 דלתות/5 מושבים · עד 3 מזוודות גדולות · קילומטראז' ללא הגבלה",
+      "pickup": "יום א' 26.7.2026, 15:00 — Locauto, Aeroporto di Milano Malpensa T2, Milan 21010. לצאת מטרמינל 2 ולעקוב אחר השילוט אל אזור 'rent a car' בתחנת הרכבת; החניון בקומה 1 של בניין ה-rent a car.",
+      "dropoff": "יום ד' 5.8.2026 — ההזמנה רשומה עד 15:00, אך לפי התוכנית מחזירים את הרכב מוקדם בבוקר (כ-09:00–09:30) כדי להספיק לטיסה ב-13:05.",
+      "insurance": "השתתפות עצמית בנזק: 1,700€ (כולל מע\"מ) · השתתפות עצמית בגניבה: 2,200€ (כולל מע\"מ) · פיקדון ביטחון: 0.01€ (מוחזר בסוף ההשכרה)",
+      "fuel": "מדיניות דלק \"מלא כפי שקיבלתם\" — להחזיר עם אותה כמות דלק שהייתה במכל באיסוף. אם יחסר דלק בהחזרה: עמלת תדלוק חד-פעמית של 50.38€ + עלות הדלק עצמו לפי מחיר השוק.",
+      "payment": "כרטיס אשראי/דביט (לא כרטיס נטען) על שם הנהג הראשי, עם מסגרת מספיקה לכיסוי ההשתתפות העצמית. לא מתקבלים כרטיסי בנקים מקוונים בלבד (neobanks). מתקבלים: Mastercard, Visa, American Express, UnionPay.",
+      "documents": "בדלפק צריך: רישיון נהיגה מלא ותקף (ותק 3+ שנים, לא דיגיטלי), דרכון או ת\"ז של כל נהג, כרטיס אשראי/דביט ע\"ש הנהג הראשי, הוכחת כתובת מגורים, שובר ההזמנה, וכרטיס טיסה בתוקף. גיל מינימום לנהיגה: 25.",
+      "contact": "טלפון Locauto (איסוף/בעיות עם הרכב): +39 02 5858 3832 · תמיכה נוספת בזמן ההשכרה: 03-372-2089",
+      "notes": "לפני מסירת הרכב: לצלם מכל הצדדים, את מד הדלק ואת הקילומטראז', ולהוציא את כל החפצים מתא המטען. יש לבדוק מראש מאיזה טרמינל יוצאת טיסת החזור — אם מטרמינל 1, יש לעבור בשאטל של שדה התעופה אחרי החזרת הרכב."
     },
     "vignette": "לבדוק ולוודא מול Locauto את סטטוס מדבקת הכבישים השווייצרית (ויניאטה) לפני היציאה מהשדה.",
     "borderCrossing": "מעבר גבול איטליה־שוויץ מתבצע פעמיים בטיול: יום 26.7 (איטליה←שוויץ, ליד Chiavenna) ויום 4.8 (שוויץ←איטליה, בדרך לסטרזה). לא צפוי צורך במסמכים מיוחדים לרכב שכור בין המדינות, אך כדאי לוודא זאת מול Locauto.",
@@ -116,8 +249,8 @@
       "notes": "פתוחה ביום חמישי 30.7 עד 22:00 — אין לחץ אם ההגעה או הצ'ק־אין מתעכבים."
     },
     "flights": {
-      "outbound": "פרטים מלאים טרם נרשמו במלואם",
-      "return": "מילאנו מלפנסה ← תל אביב, 5.8.2026, המראה 13:05. לבדוק יום קודם מאיזה טרמינל יוצאת הטיסה."
+      "outbound": "תל אביב (TLV) ← מילאנו מלפנסה (MXP) · טיסה WMT6406 · יום א' 26.7.2026 · המראה 10:50 (שעון ישראל, UTC+3)",
+      "return": "מילאנו מלפנסה (MXP) ← תל אביב (TLV) · יום ד' 5.8.2026 · המראה 13:05 (שעון מקומי, UTC+2). לבדוק מראש מאיזה טרמינל יוצאת הטיסה."
     },
     "openItems": [
       "תוכנית סופית ומדויקת לכל יום, כולל שעות מדויקות לכל עצירה",
@@ -125,14 +258,13 @@
       "חניוני גיבוי נוספים ליעדים שטרם נסגרו",
       "תוכניות גשם סופיות לכל יום",
       "שעות סופיות לרכבלים, שיט ואתרים בתאריכים הרלוונטיים",
-      "תשובת מלון ציריך בנושא צ'ק־אין מוקדם — לעדכן כשתתקבל",
       "סטטוס הווינייטה השווייצרית",
-      "טרמינל היציאה המדויק של טיסת החזור",
+      "טרמינל היציאה המדויק של טיסת החזור (הלוך וחזור)",
+      "מספר טיסת החזור",
       "מחירים ושעות עדכניות לחלק מהחניונים והאטרקציות",
       "קישורים סופיים לכל הזמנה, מלון, חניה ושיט"
     ]
   },
-
   "days": [
     {
       "id": 1,
@@ -146,29 +278,81 @@
       "hotelId": "champfer",
       "weather": "במלפנסה חם ובהיר יחסית, סביב 29°C. ככל שעולים לאלפים הטמפרטורה יורדת בחדות; באזור St. Moritz קריר, בערך 13–15°C, עם אפשרות לגשם קל או עננות בערב. לקחת מעיל נגיש ברכב.",
       "schedule": [
-        { "time": "15:00", "activity": "איסוף הרכב מ־Locauto, טרמינל 2" },
-        { "time": "15:00–15:45", "activity": "בדיקת הרכב, העמסת מזוודות וחיבור Waze" },
-        { "time": "15:45–16:00", "activity": "יציאה ממלפנסה" },
-        { "time": "~17:45", "activity": "מעבר באזור Chiavenna; עצירת שירותים קצרה רק במקרה הצורך" },
-        { "time": "18:15–19:00", "activity": "נסיעה דרך עמק Bregaglia ומעבר Maloja" },
-        { "time": "19:00–19:30", "activity": "הגעה לדירה וצ'ק־אין (יש חניה)" },
-        { "time": "19:30–20:30", "activity": "הכנסת האוכל לקירור, פריקה וארוחת ערב" },
-        { "time": "אחרי 20:30", "activity": "הליכה קצרה ליד הדירה — רק אם נשארים כוח ואור" }
+        {
+          "time": "10:50 (שעון ישראל)",
+          "activity": "המראה מתל אביב, טיסה WMT6406 ← מילאנו מלפנסה"
+        },
+        {
+          "time": "15:00",
+          "activity": "איסוף הרכב מ־Locauto, טרמינל 2"
+        },
+        {
+          "time": "15:00–15:45",
+          "activity": "בדיקת הרכב, העמסת מזוודות וחיבור Waze"
+        },
+        {
+          "time": "15:45–16:00",
+          "activity": "יציאה ממלפנסה"
+        },
+        {
+          "time": "~17:45",
+          "activity": "מעבר באזור Chiavenna; עצירת שירותים קצרה רק במקרה הצורך"
+        },
+        {
+          "time": "18:15–19:00",
+          "activity": "נסיעה דרך עמק Bregaglia ומעבר Maloja"
+        },
+        {
+          "time": "19:00–19:30",
+          "activity": "הגעה לדירה וצ'ק־אין (יש חניה)"
+        },
+        {
+          "time": "19:30–20:30",
+          "activity": "הכנסת האוכל לקירור, פריקה וארוחת ערב"
+        },
+        {
+          "time": "אחרי 20:30",
+          "activity": "הליכה קצרה ליד הדירה — רק אם נשארים כוח ואור"
+        }
       ],
       "stops": [
-        { "name": "איסוף הרכב — Locauto Malpensa T2", "wazeAddress": "Locauto – Milano Malpensa Airport Terminal 2" },
-        { "name": "כתובת הסניף", "wazeAddress": "Stazione Ferroviaria Malpensa Terminal 2, 21019 Somma Lombardo, Italy" },
-        { "name": "נקודת ניווט ביניים", "wazeAddress": "Chiavenna, Italy" },
-        { "name": "מקום הלינה", "wazeAddress": "Via Gunels 10, 7512 Champfèr, Switzerland" }
+        {
+          "name": "איסוף הרכב — Locauto Malpensa T2",
+          "wazeAddress": "Locauto, Aeroporto di Milano Malpensa T2, Milan, 21010"
+        },
+        {
+          "name": "כתובת הסניף",
+          "wazeAddress": "Stazione Ferroviaria Malpensa Terminal 2, 21019 Somma Lombardo, Italy"
+        },
+        {
+          "name": "נקודת ניווט ביניים",
+          "wazeAddress": "Chiavenna, Italy"
+        },
+        {
+          "name": "מקום הלינה",
+          "wazeAddress": "Via Gunels 10, 7512 Champfèr, Switzerland"
+        }
       ],
       "important": [
         "הצ'ק־אין אפשרי בין 17:00 ל־21:00.",
         "אם היציאה ממלפנסה מתעכבת מעבר ל־16:15, נוסעים ישירות לדירה ללא עצירה.",
         "לפני היציאה: לבדוק נזקי רכב, סוג דלק, מספר חירום ותשובת Locauto בנושא הווינייטה.",
+        "מספר שובר הרכב: 720806876 · מספר אישור Locauto: 157843877-2026 · נהג ראשי: ניצן אליקים.",
+        "בדלפק ההשכרה: להציג דרכון, רישיון נהיגה מלא, כרטיס אשראי/דביט ע\"ש הנהג הראשי, שובר ההזמנה וכרטיס הטיסה.",
         "האוכל הקפוא נכנס לקירור מיד עם ההגעה.",
         "אין אטרקציה בתשלום ואין צורך בהזמנה נוספת ביום זה."
       ],
-      "rainPlan": null
+      "rainPlan": null,
+      "weatherRegion": "champfer",
+      "highlights": [
+        {
+          "name": "מעבר מאלויה (Maloja Pass)",
+          "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Maloja01.jpg?width=1200",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Maloja01.jpg",
+          "license": "Wikimedia Commons",
+          "description": "המעבר ההררי המרשים שמחבר את איטליה עם אזור האנגדין השווייצרי, בגובה 1,815 מטר. הכביש מתפתל בעשרות עיקולים חדים מתוך עמק ברגאיה הצר אל הרמה הפתוחה שמעליו — נסיעה נופית מהיפות שיש בדרך, גם בלי לעצור. מהצד הצפוני נפתח נוף אל אגם סילס ורצף האגמים של האנגדין העליון, ואפשר להבין למה זו אחת הדרכים המצולמות באלפים."
+        }
+      ]
     },
     {
       "id": 2,
@@ -182,21 +366,60 @@
       "hotelId": "champfer",
       "weather": "ב־Diavolezza (כמעט 3,000 מ') בערך 3–10°C, עננות חלקית ורוח. הראות חשובה יותר מהגשם — לבדוק מצלמת רשת בבוקר. בעמקים וב־Poschiavo חם ונעים יותר. שכבות חמות ומעיל רוח חובה לרכבל.",
       "schedule": [
-        { "time": "08:30", "activity": "יציאה מהדירה — נסיעה נופית דרך עמק אנגדין" },
-        { "time": "09:10–11:40", "activity": "רכבל Diavolezza — תצפית על רכס ברנינה, הקרחונים והפסגות הגבוהות" },
-        { "time": "12:00–13:00", "activity": "Lago Bianco — פיקניק באגם גבוה ובהיר לצד מסילת רכבת ברנינה" },
-        { "time": "13:00–13:40", "activity": "נסיעה ל־Poschiavo — ירידה נופית ומפותלת לעמק דובר האיטלקית" },
-        { "time": "13:40–15:10", "activity": "Poschiavo — כיכר מרכזית, בתים צבעוניים, סמטאות וכנסיות היסטוריות" },
-        { "time": "15:10–16:00", "activity": "נסיעה ל־Morteratsch — חזרה צפונה דרך מעבר ברנינה" },
-        { "time": "16:00–18:00", "activity": "שביל קרחון Morteratsch — עמק קרחוני ושלטים על נסיגת הקרחון" },
-        { "time": "18:00–18:45", "activity": "חזרה לדירה" }
+        {
+          "time": "08:30",
+          "activity": "יציאה מהדירה — נסיעה נופית דרך עמק אנגדין"
+        },
+        {
+          "time": "09:10–11:40",
+          "activity": "רכבל Diavolezza — תצפית על רכס ברנינה, הקרחונים והפסגות הגבוהות"
+        },
+        {
+          "time": "12:00–13:00",
+          "activity": "Lago Bianco — פיקניק באגם גבוה ובהיר לצד מסילת רכבת ברנינה"
+        },
+        {
+          "time": "13:00–13:40",
+          "activity": "נסיעה ל־Poschiavo — ירידה נופית ומפותלת לעמק דובר האיטלקית"
+        },
+        {
+          "time": "13:40–15:10",
+          "activity": "Poschiavo — כיכר מרכזית, בתים צבעוניים, סמטאות וכנסיות היסטוריות"
+        },
+        {
+          "time": "15:10–16:00",
+          "activity": "נסיעה ל־Morteratsch — חזרה צפונה דרך מעבר ברנינה"
+        },
+        {
+          "time": "16:00–18:00",
+          "activity": "שביל קרחון Morteratsch — עמק קרחוני ושלטים על נסיגת הקרחון"
+        },
+        {
+          "time": "18:00–18:45",
+          "activity": "חזרה לדירה"
+        }
       ],
       "stops": [
-        { "name": "רכבל Diavolezza", "wazeAddress": "Talstation Diavolezza, Via da Bernina 144, 7504 Pontresina" },
-        { "name": "Lago Bianco", "wazeAddress": "Ospizio Bernina, 7710 Poschiavo" },
-        { "name": "חניה ב־Poschiavo", "wazeAddress": "Palazzo De Bassus-Mengotti, Via da Spultri, 7742 Poschiavo" },
-        { "name": "Morteratsch", "wazeAddress": "Hotel Morteratsch, Via Morteratsch 70, 7504 Pontresina" },
-        { "name": "חזרה לדירה", "wazeAddress": "Via Gunels 10, 7512 Champfèr" }
+        {
+          "name": "רכבל Diavolezza",
+          "wazeAddress": "Talstation Diavolezza, Via da Bernina 144, 7504 Pontresina"
+        },
+        {
+          "name": "Lago Bianco",
+          "wazeAddress": "Ospizio Bernina, 7710 Poschiavo"
+        },
+        {
+          "name": "חניה ב־Poschiavo",
+          "wazeAddress": "Palazzo De Bassus-Mengotti, Via da Spultri, 7742 Poschiavo"
+        },
+        {
+          "name": "Morteratsch",
+          "wazeAddress": "Hotel Morteratsch, Via Morteratsch 70, 7504 Pontresina"
+        },
+        {
+          "name": "חזרה לדירה",
+          "wazeAddress": "Via Gunels 10, 7512 Champfèr"
+        }
       ],
       "important": [
         "רכבל Diavolezza יוצא כל 20 דקות; עלייה ראשונה 08:20, ירידה אחרונה 17:20. לקנות כרטיס בבוקר לאחר בדיקת ראות ומצלמת רשת.",
@@ -206,7 +429,38 @@
         "החניה ב־Morteratsch בתשלום — להכין כרטיס אשראי או מטבעות.",
         "במקרה עיכוב: מקצרים את Morteratsch, לא מוותרים על Diavolezza ביום ראות טובה."
       ],
-      "rainPlan": null
+      "rainPlan": null,
+      "weatherRegion": "champfer",
+      "highlights": [
+        {
+          "name": "Diavolezza",
+          "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Diavolezza.jpg?width=1200",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Diavolezza.jpg",
+          "license": "CC BY-SA 4.0",
+          "description": "תחנת רכבל בגובה כמעט 3,000 מטר, מול חזית הקרחונים והפסגות של רכס ברנינה — כולל פיץ' ברנינה עצמו, הפסגה הגבוהה ביותר באלפים המזרחיים. מהתצפית העליונה רואים בבת אחת את הקרחון פרס (Persgletscher), שדות שלג נצחיים ושורת פסגות של מעל 3,500 מטר. יש מסלולי הליכה קצרים סביב התחנה לכל הכיוונים, ובימי ראות טובה זו אחת התצפיות המרשימות בשווייץ — בלי צורך בטיפוס הררי של ממש, רק עלייה ברכבל."
+        },
+        {
+          "name": "Lago Bianco (מעבר ברנינה)",
+          "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Berninapass%20Lago%20Bianco.JPG?width=1200",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Berninapass%20Lago%20Bianco.JPG",
+          "license": "CC BY-SA 3.0 · צילום: Parpan05",
+          "description": "אגם תכלת-לבן מלאכותי בגובה כ־2,250 מטר, ממש לצד פסי רכבת ברנינה האגדית (אתר מורשת עולמית של אונסק״ו) ולצד הכביש החוצה את מעבר ברנינה. האגם שוכב על קו פרשת המים היבשתי בין הים השחור לים האדריאטי — מחצית ממימיו זורמת צפונה ומחצית דרומה. מקום נהדר לפיקניק קצר עם נוף פתוח לפסגות שלג מכל עבר, ובקיץ אפשר גם לראות את רכבת הברנינה האדומה חוצה את הנוף."
+        },
+        {
+          "name": "Poschiavo",
+          "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Val%20Poschiavo%20Maggio%202014.JPG?width=1200",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Val%20Poschiavo%20Maggio%202014.JPG",
+          "license": "CC BY-SA 3.0",
+          "description": "עיירה איטלקית באופייה למרות שהיא בתוך שווייץ — כאן מדברים איטלקית, לא גרמנית או רומאנש. הכיכר המרכזית (Piazza da Cumün) מוקפת בתים צבעוניים בסגנון לומברדי, קפה קטנים וכנסיות בארוקיות. הירידה אליה מהרי הבערנינה היא אחת הדרמטיות בשווייץ — תוך פחות מחצי שעה עוברים מנוף אלפי-שלגי לעמק ים-תיכוני עם גפנים וברוש. שווה הליכה רגלית קצרה בסמטאות הישנות לפני שממשיכים בדרך."
+        },
+        {
+          "name": "שביל קרחון Morteratsch",
+          "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Morteratsch%20Glacier%20-%20Ova%20da%20Morteratsch.jpg?width=1200",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Morteratsch%20Glacier%20-%20Ova%20da%20Morteratsch.jpg",
+          "license": "CC BY-SA 3.0",
+          "description": "שביל הליכה קל ומישורי (כ־6 ק\"מ הלוך-חזור) מתחנת הרכבת אל לשון הקרחון של ואדרט דה מורטרטש — אחד הקרחונים הגדולים בשווייץ, אך גם אחד המתכווצים במהירות: שלטים לאורך השביל מסמנים היכן עמדה חזית הקרחון בכל עשור מאז 1878, וההבדל מול המצב היום מדהים לראות במו עיניים. הנוף כולל את פיץ' פאלו ופיץ' ברנינה מעל העמק, ואת הנהר הקרחוני הכחלחל הזורם ממש לצד השביל."
+        }
+      ]
     },
     {
       "id": 3,
@@ -220,20 +474,56 @@
       "hotelId": "champfer",
       "weather": "Sils/Maloja בבוקר: קריר, 6–9°C ועד 19–20°C בצהריים, עננות משתנה, רוח וסיכוי לגשם קל (ואף ממטר/רעם בהמשך). Soglio אחר הצהריים: חם ונעים, כ־23°C, שמש ותחזית יבשה.",
       "schedule": [
-        { "time": "09:00", "activity": "יציאה מהדירה" },
-        { "time": "09:15–11:00", "activity": "Sils Maria וחצי האי Chastè — כפר אנגדיני מסורתי, יער ושביל נופי על שפת האגם" },
-        { "time": "11:15–12:30", "activity": "הבורות הקרחוניים במאלויה — שקעים עגולים לאורך שביל טבע מסומן" },
-        { "time": "12:30–13:00", "activity": "פיקניק באזור מאלויה" },
-        { "time": "13:00–13:45", "activity": "נסיעה לסוליו — ירידה נופית דרך עמק Bregaglia" },
-        { "time": "13:45–14:05", "activity": "מציאת חניה והליכה לכפר — לא נכנסים עם הרכב לסמטאות" },
-        { "time": "14:05–16:45", "activity": "Soglio — סמטאות אבן, Palazzo Salis ותצפית לפסגות Sciora" },
-        { "time": "16:45–18:00", "activity": "חזרה לדירה דרך מעבר מאלויה" }
+        {
+          "time": "09:00",
+          "activity": "יציאה מהדירה"
+        },
+        {
+          "time": "09:15–11:00",
+          "activity": "Sils Maria וחצי האי Chastè — כפר אנגדיני מסורתי, יער ושביל נופי על שפת האגם"
+        },
+        {
+          "time": "11:15–12:30",
+          "activity": "הבורות הקרחוניים במאלויה — שקעים עגולים לאורך שביל טבע מסומן"
+        },
+        {
+          "time": "12:30–13:00",
+          "activity": "פיקניק באזור מאלויה"
+        },
+        {
+          "time": "13:00–13:45",
+          "activity": "נסיעה לסוליו — ירידה נופית דרך עמק Bregaglia"
+        },
+        {
+          "time": "13:45–14:05",
+          "activity": "מציאת חניה והליכה לכפר — לא נכנסים עם הרכב לסמטאות"
+        },
+        {
+          "time": "14:05–16:45",
+          "activity": "Soglio — סמטאות אבן, Palazzo Salis ותצפית לפסגות Sciora"
+        },
+        {
+          "time": "16:45–18:00",
+          "activity": "חזרה לדירה דרך מעבר מאלויה"
+        }
       ],
       "stops": [
-        { "name": "חניה בסילס מריה", "wazeAddress": "Parkhaus Sils, Via Fedacla 1, 7514 Sils/Segl Maria" },
-        { "name": "הבורות הקרחוניים", "wazeAddress": "Mehrzweckhalle Maloja, 7516 Maloja" },
-        { "name": "סוליו", "wazeAddress": "Soglio, 7610 Bregaglia, Switzerland — בכניסה לעקוב אחר השילוט לחניית Plazzüra" },
-        { "name": "חזרה לדירה", "wazeAddress": "Via Gunels 10, 7512 Champfèr" }
+        {
+          "name": "חניה בסילס מריה",
+          "wazeAddress": "Parkhaus Sils, Via Fedacla 1, 7514 Sils/Segl Maria"
+        },
+        {
+          "name": "הבורות הקרחוניים",
+          "wazeAddress": "Mehrzweckhalle Maloja, 7516 Maloja"
+        },
+        {
+          "name": "סוליו",
+          "wazeAddress": "Soglio, 7610 Bregaglia, Switzerland — בכניסה לעקוב אחר השילוט לחניית Plazzüra"
+        },
+        {
+          "name": "חזרה לדירה",
+          "wazeAddress": "Via Gunels 10, 7512 Champfèr"
+        }
       ],
       "important": [
         "מספר החניות בסוליו מוגבל — לעקוב אחר שילוט לחניית Plazzüra. אם מלא: R&P ב־Stampa/Vicosoprano ואוטובוס לכפר.",
@@ -242,7 +532,24 @@
         "במקרה עיכוב: מקצרים את Chastè, לא את הביקור בסוליו.",
         "לקחת שכבה חמה ומעיל גשם קל; לבדוק תחזית מעודכנת בערב הקודם."
       ],
-      "rainPlan": null
+      "rainPlan": null,
+      "weatherRegion": "champfer",
+      "highlights": [
+        {
+          "name": "אגם סילס (Silsersee) וחצי-האי Chastè",
+          "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Silsersee.jpg?width=1200",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Silsersee.jpg",
+          "license": "CC BY-SA 3.0",
+          "description": "אחד האגמים היפים באנגדין העליון — מים כחולים-ירוקים עמוקים, מוקפים ביערות אורן ופסגות אלפיות. חצי-האי הקטן Chastè, מול הכפר סילס-מריה, הוא נקודת הטיול האהובה על פרידריך ניטשה שגר כאן שנים וכתב חלק מ\"כך דיבר זרתוסטרא\" בהשראת הנוף. שביל הליכה קל ומישורי מקיף את חצי-האי דרך יער צפוף עם תצפיות פתוחות לאגם מכמה זוויות — מושלם לפיקניק או הפסקת רגל קצרה."
+        },
+        {
+          "name": "Soglio",
+          "image": "https://commons.wikimedia.org/wiki/Special:FilePath/SoglioGR02.JPG?width=1200",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:SoglioGR02.JPG",
+          "license": "CC BY-SA · ראו קרדיט מלא בעמוד המקור",
+          "description": "כפר הררי עתיק היושב על מדף סלעי מול פסגת פיצו באדילה החדה, בעמק ברגאיה. הצייר ג'ובאני סגנטיני כינה אותו \"סף גן העדן\", ולא בלי סיבה — סמטאות אבן צרות, בתי אבן עם משפחת דה סאליס האצילית ששלטה כאן מאות שנים, וגני פלאצו סאליס הפורחים. אין כניסת רכב לתוך הכפר עצמו, כך שההליכה בין הבתים העתיקים שקטה לגמרי, ומהמרפסת הטבעית בקצה הכפר נשקף אחד הנופים המרשימים באלפים השווייצריים."
+        }
+      ]
     },
     {
       "id": 4,
@@ -262,44 +569,110 @@
           "condition": "בהיר, יבש ורוח חלשה",
           "planLabel": "תוכנית A — מזג אוויר טוב",
           "schedule": [
-            { "time": "09:00", "activity": "יציאה מהדירה" },
-            { "time": "09:25–11:15", "activity": "רכבל כיסאות Alp Languard — תצפית על עמק פונטרזינה, רכס ברנינה והפסגות" },
-            { "time": "11:15–12:00", "activity": "נסיעה לזרנץ" },
-            { "time": "12:00–13:00", "activity": "מרכז הפארק הלאומי — תצוגה אינטראקטיבית על חיות בר, קרחונים וטבע מוגן" },
-            { "time": "13:00–13:30", "activity": "פיקניק" },
-            { "time": "13:50–15:10", "activity": "גוארדה — בתים אנגדינים מצוירים, עיטורי סגרפיטו וסמטאות עתיקות" },
-            { "time": "15:20–16:15", "activity": "נסיעה ל־Punt Muragl" },
-            { "time": "16:45–18:30", "activity": "Muottas Muragl — פוניקולר ותצפית רחבה על אגמי אנגדין ו־St. Moritz" },
-            { "time": "~19:00", "activity": "חזרה לדירה" }
+            {
+              "time": "09:00",
+              "activity": "יציאה מהדירה"
+            },
+            {
+              "time": "09:25–11:15",
+              "activity": "רכבל כיסאות Alp Languard — תצפית על עמק פונטרזינה, רכס ברנינה והפסגות"
+            },
+            {
+              "time": "11:15–12:00",
+              "activity": "נסיעה לזרנץ"
+            },
+            {
+              "time": "12:00–13:00",
+              "activity": "מרכז הפארק הלאומי — תצוגה אינטראקטיבית על חיות בר, קרחונים וטבע מוגן"
+            },
+            {
+              "time": "13:00–13:30",
+              "activity": "פיקניק"
+            },
+            {
+              "time": "13:50–15:10",
+              "activity": "גוארדה — בתים אנגדינים מצוירים, עיטורי סגרפיטו וסמטאות עתיקות"
+            },
+            {
+              "time": "15:20–16:15",
+              "activity": "נסיעה ל־Punt Muragl"
+            },
+            {
+              "time": "16:45–18:30",
+              "activity": "Muottas Muragl — פוניקולר ותצפית רחבה על אגמי אנגדין ו־St. Moritz"
+            },
+            {
+              "time": "~19:00",
+              "activity": "חזרה לדירה"
+            }
           ]
         },
         {
           "condition": "מעונן או גשם קל לסירוגין",
           "planLabel": "תוכנית B — מתחילים בזרנץ ובגוארדה",
           "schedule": [
-            { "time": "09:00", "activity": "יציאה" },
-            { "time": "10:00–11:30", "activity": "מרכז הפארק הלאומי בזרנץ — ביקור מקורה" },
-            { "time": "12:00–13:30", "activity": "גוארדה — סיור קצר בהתאם לגשם" },
-            { "time": "14:30–15:45", "activity": "מוזיאון סגנטיני (פתוח 11:00–17:00) — ציורי נוף אלפיניים" },
-            { "time": "16:15", "activity": "בדיקת ראות ב־Muottas Muragl — עולים רק אם התפזרו העננים" },
-            { "time": "18:00–19:00", "activity": "חזרה לדירה, בהתאם לעלייה לפסגה" }
+            {
+              "time": "09:00",
+              "activity": "יציאה"
+            },
+            {
+              "time": "10:00–11:30",
+              "activity": "מרכז הפארק הלאומי בזרנץ — ביקור מקורה"
+            },
+            {
+              "time": "12:00–13:30",
+              "activity": "גוארדה — סיור קצר בהתאם לגשם"
+            },
+            {
+              "time": "14:30–15:45",
+              "activity": "מוזיאון סגנטיני (פתוח 11:00–17:00) — ציורי נוף אלפיניים"
+            },
+            {
+              "time": "16:15",
+              "activity": "בדיקת ראות ב־Muottas Muragl — עולים רק אם התפזרו העננים"
+            },
+            {
+              "time": "18:00–19:00",
+              "activity": "חזרה לדירה, בהתאם לעלייה לפסגה"
+            }
           ]
         },
         {
           "condition": "גשם רצוף, רוח חזקה או רעמים",
           "planLabel": "תוכנית C — אתרים מקורים בלבד, ללא רכבלים",
           "schedule": [
-            { "time": "", "activity": "מרכז הפארק הלאומי ← פיקניק מקורה/ברכב ← מוזיאון סגנטיני ← נסיעה קצרה דרך St. Moritz ← חזרה לדירה" }
+            {
+              "time": "",
+              "activity": "מרכז הפארק הלאומי ← פיקניק מקורה/ברכב ← מוזיאון סגנטיני ← נסיעה קצרה דרך St. Moritz ← חזרה לדירה"
+            }
           ]
         }
       ],
       "stops": [
-        { "name": "רכבל כיסאות Alp Languard", "wazeAddress": "Sessellift Alp Languard, Pontresina" },
-        { "name": "מרכז הפארק הלאומי", "wazeAddress": "Nationalparkzentrum, Urtatsch 2, 7530 Zernez" },
-        { "name": "הכפר גוארדה", "wazeAddress": "Guarda, 7545 Guarda-Scuol — חניה בתשלום בכניסה לכפר" },
-        { "name": "מוזיאון סגנטיני", "wazeAddress": "Segantini Museum, St. Moritz" },
-        { "name": "תחנת Punt Muragl", "wazeAddress": "Punt Muragl Talstation, Samedan" },
-        { "name": "חזרה לדירה", "wazeAddress": "Via Gunels 10, 7512 Champfèr" }
+        {
+          "name": "רכבל כיסאות Alp Languard",
+          "wazeAddress": "Sessellift Alp Languard, Pontresina"
+        },
+        {
+          "name": "מרכז הפארק הלאומי",
+          "wazeAddress": "Nationalparkzentrum, Urtatsch 2, 7530 Zernez"
+        },
+        {
+          "name": "הכפר גוארדה",
+          "wazeAddress": "Guarda, 7545 Guarda-Scuol — חניה בתשלום בכניסה לכפר"
+        },
+        {
+          "name": "מוזיאון סגנטיני",
+          "wazeAddress": "Segantini Museum, St. Moritz"
+        },
+        {
+          "name": "תחנת Punt Muragl",
+          "wazeAddress": "Punt Muragl Talstation, Samedan"
+        },
+        {
+          "name": "חזרה לדירה",
+          "wazeAddress": "Via Gunels 10, 7512 Champfèr"
+        }
       ],
       "important": [
         "מרכז הפארק פתוח בקיץ מדי יום 08:30–18:00.",
@@ -308,7 +681,17 @@
         "רכבל הכיסאות הפתוח פועל רק כשמסומן כפעיל, ללא גשם/רעמים/רוח חזקה.",
         "מוזיאון סגנטיני פתוח ביום רביעי 11:00–17:00."
       ],
-      "rainPlan": null
+      "rainPlan": null,
+      "weatherRegion": "champfer",
+      "highlights": [
+        {
+          "name": "מואוטס מוראגל / St. Moritz",
+          "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sankt%20Moritz%20Lake%20Piz%20Muragl.jpg?width=1200",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sankt%20Moritz%20Lake%20Piz%20Muragl.jpg",
+          "license": "CC BY-SA 4.0 · צילום: Isiwal",
+          "description": "תצפית פנורמית רחבה על כל עמק אנגדין העליון — אגם סנט מוריץ הכחול, הכפרים הפזורים סביבו ורכס ברנינה באופק. ניתן להגיע ברכבל תלוי או בפוניקולר, ומהמסעדה בפסגה (הבנויה כמלון היסטורי) הנוף משתרע גם בשעות אחר הצהריים המאוחרות. זו אחת מנקודות התצפית הנגישות ביותר באזור — לא דורשת הליכה ממושכת, ומתאימה גם כתחליף רגוע אם מזג האוויר לא מאפשר את רכבל הכיסאות הפתוח."
+        }
+      ]
     },
     {
       "id": 5,
@@ -322,22 +705,64 @@
       "hotelId": "zurich",
       "weather": "התחזית המדויקת תתעדכן כמה ימים לפני הנסיעה.",
       "schedule": [
-        { "time": "09:30", "activity": "יציאה מהדירה בשאמפר — נסיעה דרך מעבר יולייר והנוף האלפיני" },
-        { "time": "12:15–12:45", "activity": "הגעה ל־Sihlcity — חיפוש מקום בחניית המלון וכניסה לקבלה" },
-        { "time": "12:30–13:00", "activity": "קבלה במלון — צ'ק־אין מוקדם אם אושר; אחרת שמירת מזוודות וקירור הצידנית" },
-        { "time": "13:00–14:00", "activity": "ארוחה ומנוחה — מהמזון שהבאתם באזור המלון" },
-        { "time": "14:00–15:00", "activity": "זמן חופשי ב־Sihlcity — מרכז קניות מקורה הצמוד למלון" },
-        { "time": "15:00–15:30", "activity": "צ'ק־אין והתארגנות — העברת האוכל למטבחון ולמקרר שבחדר" },
-        { "time": "15:45–17:15", "activity": "Koscher City — קניות והצטיידות לימים בציריך ולשבת" },
-        { "time": "17:15–18:00", "activity": "חזרה למלון — פריקת הקניות ומנוחה קצרה" },
-        { "time": "18:15–20:30", "activity": "סיור ערב במרכז ציריך — נהר לימאט, Lindenhof, Bahnhofstrasse והעיר העתיקה" },
-        { "time": "~21:00", "activity": "חזרה למלון — סיום היום" }
+        {
+          "time": "09:30",
+          "activity": "יציאה מהדירה בשאמפר — נסיעה דרך מעבר יולייר והנוף האלפיני"
+        },
+        {
+          "time": "12:15–12:45",
+          "activity": "הגעה ל־Sihlcity — חיפוש מקום בחניית המלון וכניסה לקבלה"
+        },
+        {
+          "time": "12:30–13:00",
+          "activity": "קבלה במלון — צ'ק־אין מוקדם אם אושר; אחרת שמירת מזוודות וקירור הצידנית"
+        },
+        {
+          "time": "13:00–14:00",
+          "activity": "ארוחה ומנוחה — מהמזון שהבאתם באזור המלון"
+        },
+        {
+          "time": "14:00–15:00",
+          "activity": "זמן חופשי ב־Sihlcity — מרכז קניות מקורה הצמוד למלון"
+        },
+        {
+          "time": "15:00–15:30",
+          "activity": "צ'ק־אין והתארגנות — העברת האוכל למטבחון ולמקרר שבחדר"
+        },
+        {
+          "time": "15:45–17:15",
+          "activity": "Koscher City — קניות והצטיידות לימים בציריך ולשבת"
+        },
+        {
+          "time": "17:15–18:00",
+          "activity": "חזרה למלון — פריקת הקניות ומנוחה קצרה"
+        },
+        {
+          "time": "18:15–20:30",
+          "activity": "סיור ערב במרכז ציריך — נהר לימאט, Lindenhof, Bahnhofstrasse והעיר העתיקה"
+        },
+        {
+          "time": "~21:00",
+          "activity": "חזרה למלון — סיום היום"
+        }
       ],
       "stops": [
-        { "name": "מעבר יולייר", "wazeAddress": "Julierpass, 7457 Surses" },
-        { "name": "חניית המלון", "wazeAddress": "Sihlcity, Kalanderplatz 1, 8045 Zürich" },
-        { "name": "The Home Hotel Zürich", "wazeAddress": "Kalandergasse 1, 8045 Zürich" },
-        { "name": "הסופר הכשר", "wazeAddress": "Koscher City, Weststrasse 115, 8003 Zürich" }
+        {
+          "name": "מעבר יולייר",
+          "wazeAddress": "Julierpass, 7457 Surses"
+        },
+        {
+          "name": "חניית המלון",
+          "wazeAddress": "Sihlcity, Kalanderplatz 1, 8045 Zürich"
+        },
+        {
+          "name": "The Home Hotel Zürich",
+          "wazeAddress": "Kalandergasse 1, 8045 Zürich"
+        },
+        {
+          "name": "הסופר הכשר",
+          "wazeAddress": "Koscher City, Weststrasse 115, 8003 Zürich"
+        }
       ],
       "important": [
         "בכניסה לציריך: לנווט ל־Sihlcity ולבחור מסלול Car By, לא לכתובת המלון עצמה.",
@@ -346,7 +771,17 @@
         "Koscher City פתוחה ביום חמישי עד 22:00 — אין לחץ אם ההגעה מתעכבת.",
         "האופניים במלון חינמיים אך מוגבלים בכמות — תלוי בקבלת שני זוגות וציוד בסיסי (מנעולים, קסדות)."
       ],
-      "rainPlan": null
+      "rainPlan": null,
+      "weatherRegion": "zurich",
+      "highlights": [
+        {
+          "name": "ציריך — לימאט והעיר העתיקה",
+          "image": "https://commons.wikimedia.org/wiki/Special:FilePath/7159%20-%20Z%C3%BCrich%20-%20Limmat-Quai.JPG?width=1200",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:7159%20-%20Z%C3%BCrich%20-%20Limmat-Quai.JPG",
+          "license": "CC BY-SA 2.5 · צילום: Thisisbossi",
+          "description": "נהר הלימאט חוצה את העיר העתיקה של ציריך בין שתי גדות עמוסות בבתי-סוחרים צבעוניים מימי הביניים והרנסנס. הטיילת לימטקוואי (Limmatquai) לאורך הגדה המזרחית מלאה בבתי קפה, ומולה ניצבות שתי הכנסיות הידועות של העיר — גרוסמינסטר (עם שני המגדלים התאומים) ופראומינסטר (עם חלונות הזכוכית הצבעונית של שאגאל). בערב, כשהאור משתקף במים והעיר מוארת, זהו אחד הרגעים היפים בציריך — הליכה קצרה בין הגשרים מספיקה כדי להרגיש את האווירה."
+        }
+      ]
     },
     {
       "id": 6,
@@ -361,26 +796,69 @@
       "weather": "",
       "candleLighting": "20:43",
       "schedule": [
-        { "time": "09:00", "activity": "קבלת האופניים מהמלון — בדיקת סוללה, בלמים, מנעולים וקסדות" },
-        { "time": "09:15–10:00", "activity": "רכיבה מ־Sihlcity לכיוון Wollishofen — שכונות שקטות והגעה לחוף המערבי" },
-        { "time": "10:00–10:30", "activity": "Rote Fabrik — מבנה תעשייתי אדום על שפת האגם ונוף למרכז ציריך" },
-        { "time": "10:30–10:50", "activity": "Boardwalk Cassiopeia — שביל עץ מעל המים (כ־284 מ', מוליכים אופניים ביד)" },
-        { "time": "10:50–11:30", "activity": "Landiwiese והטיילת — פארק גדול, מדשאות ונוף פתוח לאגם" },
-        { "time": "11:30–12:00", "activity": "ארוחה מהמזון שהבאתם — עצירה בפארק או ליד האגם" },
-        { "time": "12:00–13:00", "activity": "רכיבה רגועה חזרה למלון" },
-        { "time": "13:15–13:30", "activity": "החזרת האופניים — מעבר להכנות לשבת" },
-        { "time": "13:30 ואילך", "activity": "הכנות לשבת — בישול, מקלחות, מנוחה וסידור החדר" }
+        {
+          "time": "09:00",
+          "activity": "קבלת האופניים מהמלון — בדיקת סוללה, בלמים, מנעולים וקסדות"
+        },
+        {
+          "time": "09:15–10:00",
+          "activity": "רכיבה מ־Sihlcity לכיוון Wollishofen — שכונות שקטות והגעה לחוף המערבי"
+        },
+        {
+          "time": "10:00–10:30",
+          "activity": "Rote Fabrik — מבנה תעשייתי אדום על שפת האגם ונוף למרכז ציריך"
+        },
+        {
+          "time": "10:30–10:50",
+          "activity": "Boardwalk Cassiopeia — שביל עץ מעל המים (כ־284 מ', מוליכים אופניים ביד)"
+        },
+        {
+          "time": "10:50–11:30",
+          "activity": "Landiwiese והטיילת — פארק גדול, מדשאות ונוף פתוח לאגם"
+        },
+        {
+          "time": "11:30–12:00",
+          "activity": "ארוחה מהמזון שהבאתם — עצירה בפארק או ליד האגם"
+        },
+        {
+          "time": "12:00–13:00",
+          "activity": "רכיבה רגועה חזרה למלון"
+        },
+        {
+          "time": "13:15–13:30",
+          "activity": "החזרת האופניים — מעבר להכנות לשבת"
+        },
+        {
+          "time": "13:30 ואילך",
+          "activity": "הכנות לשבת — בישול, מקלחות, מנוחה וסידור החדר"
+        }
       ],
       "stops": [
-        { "name": "Rote Fabrik", "wazeAddress": "Rote Fabrik, Zürich" },
-        { "name": "Wollishofen", "wazeAddress": "Wollishofen, Zürich" }
+        {
+          "name": "Rote Fabrik",
+          "wazeAddress": "Rote Fabrik, Zürich"
+        },
+        {
+          "name": "Wollishofen",
+          "wazeAddress": "Wollishofen, Zürich"
+        }
       ],
       "important": [
         "Rote Fabrik נמצאת ישירות על האגם, ו־Boardwalk Cassiopeia מחבר אותה עם נמל Wollishofen — כ־284 מ'.",
         "הקטע מיועד בעיקר להולכי רגל — במקום צפוף מוליכים את האופניים ביד.",
         "חלופה ללא אופניים/בגשם: טיילת האגם ← Lindenhof ← Schanzengraben ← Bürkliplatz ← חזרה למלון."
       ],
-      "rainPlan": "מסלול רגלי עירוני: טיילת האגם, Lindenhof, Schanzengraben ו־Bürkliplatz — ניתן לקצר בכל שלב."
+      "rainPlan": "מסלול רגלי עירוני: טיילת האגם, Lindenhof, Schanzengraben ו־Bürkliplatz — ניתן לקצר בכל שלב.",
+      "weatherRegion": "zurich",
+      "highlights": [
+        {
+          "name": "אגם ציריך וטיילת האופניים",
+          "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Z%C3%BCrich%20-%20B%C3%BCrkliplatz%20IMG%202621.jpg?width=1200",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Z%C3%BCrich_-_B%C3%BCrkliplatz_IMG_2621.jpg",
+          "license": "CC BY-SA 3.0",
+          "description": "רכיבה שקטה לאורך שפת אגם ציריך, מ־Sihlcity ועד Wollishofen, עם מים כחולים מצד אחד ומדשאות ירוקות מהצד השני. Rote Fabrik, מבנה תעשייתי אדום ישן שהפך למרכז תרבות, יושב ממש על המים ומספק תצפית נעימה חזרה לעבר קו הרקיע של העיר. זהו צד רגוע ומקומי של ציריך — הרחק מהמולת מרכז העיר, ופופולרי בעיקר בקרב תושבי המקום."
+        }
+      ]
     },
     {
       "id": 7,
@@ -395,22 +873,64 @@
       "weather": "",
       "isShabbat": true,
       "schedule": [
-        { "time": "09:00", "activity": "קבלת האופניים — יציאה אחרי ארוחת בוקר רגועה" },
-        { "time": "09:15–10:00", "activity": "רכיבה לכיוון Bürkliplatz — נהר Sihl, שכונת Enge והגעה לאגם" },
-        { "time": "10:00–10:30", "activity": "Bürkliplatz — נקודת המפגש בין מרכז העיר לאגם" },
-        { "time": "10:30–11:30", "activity": "רכיבה לאורך הטיילת המזרחית — אגם ציריך, פארקים ונוף לעיר" },
-        { "time": "11:30–12:15", "activity": "Zürichhorn — פארק רחב על שפת האגם, מקום למנוחה" },
-        { "time": "12:15–13:00", "activity": "פיקניק — אוכל שהוכן מראש" },
-        { "time": "13:00–14:00", "activity": "חזרה לכיוון מרכז העיר — נסיעה איטית לאורך האגם" },
-        { "time": "14:00–15:30", "activity": "חניה ונעילת האופניים באזור Bürkliplatz — הליכה ב־Limmatquai, Lindenhof והעיר העתיקה" },
-        { "time": "15:30–16:30", "activity": "אווירת היום הלאומי — דגלים, משפחות ואירועים מקומיים במרכז" },
-        { "time": "16:30–17:15", "activity": "רכיבה חזרה למלון — לפני עומסי הערב" },
-        { "time": "17:30 ואילך", "activity": "מנוחה במלון — ארוחה וזמן חופשי" },
-        { "time": "בערב", "activity": "הליכה קצרה באזור Sihlcity בלבד, רק אם רוצים לצאת שוב — ללא אופניים בחשיכה" }
+        {
+          "time": "09:00",
+          "activity": "קבלת האופניים — יציאה אחרי ארוחת בוקר רגועה"
+        },
+        {
+          "time": "09:15–10:00",
+          "activity": "רכיבה לכיוון Bürkliplatz — נהר Sihl, שכונת Enge והגעה לאגם"
+        },
+        {
+          "time": "10:00–10:30",
+          "activity": "Bürkliplatz — נקודת המפגש בין מרכז העיר לאגם"
+        },
+        {
+          "time": "10:30–11:30",
+          "activity": "רכיבה לאורך הטיילת המזרחית — אגם ציריך, פארקים ונוף לעיר"
+        },
+        {
+          "time": "11:30–12:15",
+          "activity": "Zürichhorn — פארק רחב על שפת האגם, מקום למנוחה"
+        },
+        {
+          "time": "12:15–13:00",
+          "activity": "פיקניק — אוכל שהוכן מראש"
+        },
+        {
+          "time": "13:00–14:00",
+          "activity": "חזרה לכיוון מרכז העיר — נסיעה איטית לאורך האגם"
+        },
+        {
+          "time": "14:00–15:30",
+          "activity": "חניה ונעילת האופניים באזור Bürkliplatz — הליכה ב־Limmatquai, Lindenhof והעיר העתיקה"
+        },
+        {
+          "time": "15:30–16:30",
+          "activity": "אווירת היום הלאומי — דגלים, משפחות ואירועים מקומיים במרכז"
+        },
+        {
+          "time": "16:30–17:15",
+          "activity": "רכיבה חזרה למלון — לפני עומסי הערב"
+        },
+        {
+          "time": "17:30 ואילך",
+          "activity": "מנוחה במלון — ארוחה וזמן חופשי"
+        },
+        {
+          "time": "בערב",
+          "activity": "הליכה קצרה באזור Sihlcity בלבד, רק אם רוצים לצאת שוב — ללא אופניים בחשיכה"
+        }
       ],
       "stops": [
-        { "name": "Bürkliplatz", "wazeAddress": "Bürkliplatz, Zürich" },
-        { "name": "Zürichhorn", "wazeAddress": "Zürichhorn, Zürich" }
+        {
+          "name": "Bürkliplatz",
+          "wazeAddress": "Bürkliplatz, Zürich"
+        },
+        {
+          "name": "Zürichhorn",
+          "wazeAddress": "Zürichhorn, Zürich"
+        }
       ],
       "important": [
         "יום חג ציבורי — רוב החנויות סגורות; כל האוכל והציוד מוכנים מיום שישי.",
@@ -421,7 +941,17 @@
         "לא להשאיר אופניים ללא מנעול, גם בעצירה קצרה.",
         "בציריך מתקיימות חגיגות רשמיות באזור Grossmünster ו־Stadthaus, אך אין מופע זיקוקים עירוני מרכזי — בעיקר זיקוקים פרטיים קטנים. ללוחות זמנים מדויקים ל־2026 יש לבדוק סמוך לנסיעה."
       ],
-      "rainPlan": null
+      "rainPlan": null,
+      "weatherRegion": "zurich",
+      "highlights": [
+        {
+          "name": "Zürichhorn ביום העצמאות השווייצרי",
+          "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Lake%20Zurich%20%28Ank%20Kumar%2C%20Infosys%29%2005.jpg?width=1200",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lake_Zurich_(Ank_Kumar,_Infosys)_05.jpg",
+          "license": "CC BY-SA 4.0 · צילום: Ank Kumar",
+          "description": "פארק רחב ופתוח על שפת אגם ציריך, במקום שבו הרכיבה לאורך הטיילת המזרחית נחה. ב־1 באוגוסט — היום הלאומי השווייצרי — כל האזור מתמלא דגלים אדומים-לבנים, משפחות עם פיקניקים ואווירה חגיגית שקטה יחסית, בלי המולה תיירותית. משם ההליכה למרכז העיר העתיקה קצרה ונעימה לאורך המים."
+        }
+      ]
     },
     {
       "id": 8,
@@ -435,21 +965,60 @@
       "hotelId": "locarno",
       "weather": "",
       "schedule": [
-        { "time": "08:15–09:00", "activity": "ארוחת בוקר, צ'ק־אאוט והעמסת הרכב — פינוי החדר עד 09:00" },
-        { "time": "09:00", "activity": "יציאה מציריך — נסיעה ישירה ללוצרן" },
-        { "time": "10:00–10:15", "activity": "הגעה וחניה בלוצרן — ליד התחנה, האגם והעיר העתיקה" },
-        { "time": "10:15–12:00", "activity": "סיור רגלי בלוצרן — גשר הקפלה, מגדל המים, נהר Reuss, העיר העתיקה וגשר שפרוייר" },
-        { "time": "12:00–12:20", "activity": "ארוחה קצרה מהמזון שהבאתם — ליד הנהר או ברכב" },
-        { "time": "עד 12:20", "activity": "יציאה מלוצרן — נסיעה דרומה דרך ציר גוטהארד" },
-        { "time": "15:15–16:00", "activity": "הגעה משוערת ללוקרנו — תלוי בתנועה במנהרת גוטהארד" },
-        { "time": "16:00–16:30", "activity": "חניה וכניסה לדירה (Self check-in) ופריקת המזוודות" },
-        { "time": "17:00–18:30", "activity": "הליכה רגועה בלוקרנו — Piazza Grande והרחובות העתיקים הסמוכים" },
-        { "time": "18:30 ואילך", "activity": "חזרה לדירה — מנוחה וארוחה" }
+        {
+          "time": "08:15–09:00",
+          "activity": "ארוחת בוקר, צ'ק־אאוט והעמסת הרכב — פינוי החדר עד 09:00"
+        },
+        {
+          "time": "09:00",
+          "activity": "יציאה מציריך — נסיעה ישירה ללוצרן"
+        },
+        {
+          "time": "10:00–10:15",
+          "activity": "הגעה וחניה בלוצרן — ליד התחנה, האגם והעיר העתיקה"
+        },
+        {
+          "time": "10:15–12:00",
+          "activity": "סיור רגלי בלוצרן — גשר הקפלה, מגדל המים, נהר Reuss, העיר העתיקה וגשר שפרוייר"
+        },
+        {
+          "time": "12:00–12:20",
+          "activity": "ארוחה קצרה מהמזון שהבאתם — ליד הנהר או ברכב"
+        },
+        {
+          "time": "עד 12:20",
+          "activity": "יציאה מלוצרן — נסיעה דרומה דרך ציר גוטהארד"
+        },
+        {
+          "time": "15:15–16:00",
+          "activity": "הגעה משוערת ללוקרנו — תלוי בתנועה במנהרת גוטהארד"
+        },
+        {
+          "time": "16:00–16:30",
+          "activity": "חניה וכניסה לדירה (Self check-in) ופריקת המזוודות"
+        },
+        {
+          "time": "17:00–18:30",
+          "activity": "הליכה רגועה בלוקרנו — Piazza Grande והרחובות העתיקים הסמוכים"
+        },
+        {
+          "time": "18:30 ואילך",
+          "activity": "חזרה לדירה — מנוחה וארוחה"
+        }
       ],
       "stops": [
-        { "name": "חניון תחנת לוצרן", "wazeAddress": "Bahnhofplatz 1, 6002 Luzern (Bahnhofparking P1)" },
-        { "name": "מקום הלינה בלוקרנו", "wazeAddress": "Via Bartolomeo Rusca 9, 6600 Locarno" },
-        { "name": "חניון חלופי בלוקרנו", "wazeAddress": "Castello Centro — להשתמש בקישור מהבעלים אם המתחם מלא" }
+        {
+          "name": "חניון תחנת לוצרן",
+          "wazeAddress": "Bahnhofplatz 1, 6002 Luzern (Bahnhofparking P1)"
+        },
+        {
+          "name": "מקום הלינה בלוקרנו",
+          "wazeAddress": "Via Bartolomeo Rusca 9, 6600 Locarno"
+        },
+        {
+          "name": "חניון חלופי בלוקרנו",
+          "wazeAddress": "Castello Centro — להשתמש בקישור מהבעלים אם המתחם מלא"
+        }
       ],
       "important": [
         "מסלול הליכה בלוצרן: Bahnhofparking P1 ← Kapellbrücke ← Weinmarkt ← Spreuerbrücke ← לאורך נהר Reuss ← חזרה לחניון. קצר ומישורי, בלי מוזיאונים.",
@@ -458,7 +1027,17 @@
         "תחזית TCS לקיץ 2026 מזהירה מתורים בגוטהארד בסופי שבוע; באוגוסט חלק מהעומסים נוטה לצפון.",
         "צ'ק־אין עצמי בלוקרנו זמין החל מ־15:00 — אין צורך בשעה מדויקת. לעדכן את הבעלים שהגעה משוערת 15:30–16:30."
       ],
-      "rainPlan": null
+      "rainPlan": null,
+      "weatherRegion": "locarno",
+      "highlights": [
+        {
+          "name": "לוצרן — גשר הקפלה (Kapellbrücke)",
+          "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Luzern%20Kapellbruecke.jpg?width=1200",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Luzern%20Kapellbruecke.jpg",
+          "license": "CC BY-SA (Wikimedia Commons Featured Picture)",
+          "description": "גשר העץ המקורה העתיק ביותר באירופה עדיין בשימוש — נבנה במאה ה־14 כחלק מביצורי העיר, וחוצה את נהר רויס באלכסון עם מגדל המים העגול (Wasserturm) הבולט לצדו. בתוך הגשר תלויות עשרות לוחות ציור היסטוריים המתארים את קורות לוצרן ואת קדושיה (חלקם נשרפו בשריפה ב-1993 ושוחזרו). הגשר מוביל ישירות אל העיר העתיקה עם בתי הסוחרים המצוירים שלה, וזו נקודת התחלה טבעית לכל סיור רגלי בעיר."
+        }
+      ]
     },
     {
       "id": 9,
@@ -472,21 +1051,60 @@
       "hotelId": "locarno",
       "weather": "תחזית ארוכה: שמש רוב היום, סביב 22–24°C, סיכוי נמוך לגשם. בעומק העמק ובסונוניו קריר יותר. תחזית לא סופית — MeteoSwiss מפרסמת תחזית אמינה עד 9 ימים מראש; לבדוק שוב בערב 2.8.",
       "schedule": [
-        { "time": "09:00", "activity": "יציאה מלוקרנו — נסיעה צפונה לעמק ורזסקה" },
-        { "time": "09:30–10:10", "activity": "סכר ורזסקה — סכר גבוה ותצפית על המאגר והעמק" },
-        { "time": "10:40–12:30", "activity": "Ponte dei Salti, לברטצו — גשר אבן כפול, נהר ירוק וסלעי גרניט חלקים" },
-        { "time": "12:30–13:00", "activity": "ארוחה מהמזון שהבאתם — פיקניק ליד החניה או במקום בטוח לצד הנהר" },
-        { "time": "13:00–13:40", "activity": "נסיעה לסונוניו — כביש נופי לאורך הנהר והכפרים" },
-        { "time": "13:40–16:20", "activity": "סונוניו ומפל פרודה — כפר אבן מסורתי והליכה קצרה למפל ביער" },
-        { "time": "16:20–17:30", "activity": "נסיעה חזרה ללוקרנו" },
-        { "time": "17:30–18:30", "activity": "זמן גמיש — עצירה נוספת רק אם מזג האוויר והזמן מאפשרים" }
+        {
+          "time": "09:00",
+          "activity": "יציאה מלוקרנו — נסיעה צפונה לעמק ורזסקה"
+        },
+        {
+          "time": "09:30–10:10",
+          "activity": "סכר ורזסקה — סכר גבוה ותצפית על המאגר והעמק"
+        },
+        {
+          "time": "10:40–12:30",
+          "activity": "Ponte dei Salti, לברטצו — גשר אבן כפול, נהר ירוק וסלעי גרניט חלקים"
+        },
+        {
+          "time": "12:30–13:00",
+          "activity": "ארוחה מהמזון שהבאתם — פיקניק ליד החניה או במקום בטוח לצד הנהר"
+        },
+        {
+          "time": "13:00–13:40",
+          "activity": "נסיעה לסונוניו — כביש נופי לאורך הנהר והכפרים"
+        },
+        {
+          "time": "13:40–16:20",
+          "activity": "סונוניו ומפל פרודה — כפר אבן מסורתי והליכה קצרה למפל ביער"
+        },
+        {
+          "time": "16:20–17:30",
+          "activity": "נסיעה חזרה ללוקרנו"
+        },
+        {
+          "time": "17:30–18:30",
+          "activity": "זמן גמיש — עצירה נוספת רק אם מזג האוויר והזמן מאפשרים"
+        }
       ],
       "stops": [
-        { "name": "סכר ורזסקה", "wazeAddress": "Diga della Verzasca" },
-        { "name": "גשר הקפיצות, לברטצו", "wazeAddress": "Ponte dei Salti, Lavertezzo" },
-        { "name": "כפר סונוניו", "wazeAddress": "Sonogno, Verzasca" },
-        { "name": "מפל פרודה", "wazeAddress": "La Cascata Froda — מחנים בסונוניו והולכים ברגל, לא מנווטים עם הרכב" },
-        { "name": "חזרה לדירה", "wazeAddress": "Via Bartolomeo Rusca 9, 6600 Locarno" }
+        {
+          "name": "סכר ורזסקה",
+          "wazeAddress": "Diga della Verzasca"
+        },
+        {
+          "name": "גשר הקפיצות, לברטצו",
+          "wazeAddress": "Ponte dei Salti, Lavertezzo"
+        },
+        {
+          "name": "כפר סונוניו",
+          "wazeAddress": "Sonogno, Verzasca"
+        },
+        {
+          "name": "מפל פרודה",
+          "wazeAddress": "La Cascata Froda — מחנים בסונוניו והולכים ברגל, לא מנווטים עם הרכב"
+        },
+        {
+          "name": "חזרה לדירה",
+          "wazeAddress": "Via Bartolomeo Rusca 9, 6600 Locarno"
+        }
       ],
       "important": [
         "העמק משתרע מעל 25 ק\"מ; לברטצו וסונוניו הם מהאתרים המרכזיים.",
@@ -495,7 +1113,17 @@
         "תוכנית: להגיע לסכר, לבדוק אם Verzasca Diga Shop Info פתוח ולרכוש שם; אם סגור — מדחן או תשלום לפי שעה.",
         "במקרה גשם רצוף/רעמים: לוותר על ההליכה למפל, לקצר את לברטצו, לחזור מוקדם ללוקרנו."
       ],
-      "rainPlan": "לוותר על ההליכה למפל פרודה, לקצר את הביקור בלברטצו, ולחזור מוקדם ללוקרנו."
+      "rainPlan": "לוותר על ההליכה למפל פרודה, לקצר את הביקור בלברטצו, ולחזור מוקדם ללוקרנו.",
+      "weatherRegion": "locarno",
+      "highlights": [
+        {
+          "name": "עמק ורזסקה — Ponte dei Salti",
+          "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ponte%20Romano%20-%20Valle%20Verzasca%20-%20Ponte%20dei%20Salti%20-%20panoramio.jpg?width=1200",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ponte%20Romano%20-%20Valle%20Verzasca%20-%20Ponte%20dei%20Salti%20-%20panoramio.jpg",
+          "license": "CC BY 3.0",
+          "description": "גשר אבן דו-קשתי מהמאה ה-17 המתנשא מעל מי נהר הוורזסקה — מהמים הצלולים והירוקים ביותר שתראו באירופה, זורמים בין סלעי גרניט חלקים שעוצבו במשך אלפי שנים. האתר ידוע כאחד ממוקדי הצלילה החופשית והשחייה הפראית המפורסמים בשווייץ (בקיץ, למי שאוהב מים קרים!), אבל גם בלי לרדת למים — ההליכה על הגשר עצמו ולאורך הנהר, בין ברכות טבעיות לקפיצות סלע, היא חוויה ייחודית לעמק הזה."
+        }
+      ]
     },
     {
       "id": 10,
@@ -509,28 +1137,88 @@
       "hotelId": "stresa",
       "weather": "תחזית ארוכה כרגע: יום נעים, כ־25°C ביום, 16°C בלילה. עדיין לא מספיק אמינה — לבדוק שוב בערב 3.8, בעיקר גשם, רעמים ורוח באגם.",
       "schedule": [
-        { "time": "08:30", "activity": "יציאה מלוקרנו — נסיעה לאורך אגם מאג'ורה ומעבר הגבול לאיטליה" },
-        { "time": "~10:00", "activity": "הגעה לסטרזה — ניווט דרך Via Giacomo Filippo Bolongaro אל Piazza Capucci" },
-        { "time": "10:00–10:15", "activity": "חיפוש חניה — Piazza Capucci, חניה ציבורית חינמית, ללא מקום שמור" },
-        { "time": "10:15–10:30", "activity": "טיפול במזוודות — מומלץ להשאיר בדירה לפי ההוראות; אפשר גם ברכב אם מוסתר לחלוטין" },
-        { "time": "10:30–10:50", "activity": "הליכה לרציף — Imbarcadero di Stresa" },
-        { "time": "10:50–11:10", "activity": "כרטיסים והמתנה — כ־20 דק' לפני ההפלגה, כפי שממליצה חברת השיט" },
-        { "time": "~11:10", "activity": "הפלגה ל־Isola Bella" },
-        { "time": "11:25–13:10", "activity": "Isola Bella — הארמון והגנים" },
-        { "time": "13:10–13:30", "activity": "הפלגה ל־Isola dei Pescatori" },
-        { "time": "13:30–14:30", "activity": "Isola dei Pescatori — סמטאות הכפר, נוף לאגם וארוחה מהאוכל שהבאתם" },
-        { "time": "14:30–15:00", "activity": "שיט חזרה לסטרזה" },
-        { "time": "15:00–15:20", "activity": "חזרה לדירה וצ'ק־אין — איסוף המזוודות והתארגנות" },
-        { "time": "15:20–17:00", "activity": "מנוחה בדירה" },
-        { "time": "17:00–19:30", "activity": "מרכז וטיילת סטרזה — Lungolago, מרכז העיירה ונוף לאיים" },
-        { "time": "19:30", "activity": "חזרה לדירה — ארוחה והתארגנות ליום הבא" }
+        {
+          "time": "08:30",
+          "activity": "יציאה מלוקרנו — נסיעה לאורך אגם מאג'ורה ומעבר הגבול לאיטליה"
+        },
+        {
+          "time": "~10:00",
+          "activity": "הגעה לסטרזה — ניווט דרך Via Giacomo Filippo Bolongaro אל Piazza Capucci"
+        },
+        {
+          "time": "10:00–10:15",
+          "activity": "חיפוש חניה — Piazza Capucci, חניה ציבורית חינמית, ללא מקום שמור"
+        },
+        {
+          "time": "10:15–10:30",
+          "activity": "טיפול במזוודות — מומלץ להשאיר בדירה לפי ההוראות; אפשר גם ברכב אם מוסתר לחלוטין"
+        },
+        {
+          "time": "10:30–10:50",
+          "activity": "הליכה לרציף — Imbarcadero di Stresa"
+        },
+        {
+          "time": "10:50–11:10",
+          "activity": "כרטיסים והמתנה — כ־20 דק' לפני ההפלגה, כפי שממליצה חברת השיט"
+        },
+        {
+          "time": "~11:10",
+          "activity": "הפלגה ל־Isola Bella"
+        },
+        {
+          "time": "11:25–13:10",
+          "activity": "Isola Bella — הארמון והגנים"
+        },
+        {
+          "time": "13:10–13:30",
+          "activity": "הפלגה ל־Isola dei Pescatori"
+        },
+        {
+          "time": "13:30–14:30",
+          "activity": "Isola dei Pescatori — סמטאות הכפר, נוף לאגם וארוחה מהאוכל שהבאתם"
+        },
+        {
+          "time": "14:30–15:00",
+          "activity": "שיט חזרה לסטרזה"
+        },
+        {
+          "time": "15:00–15:20",
+          "activity": "חזרה לדירה וצ'ק־אין — איסוף המזוודות והתארגנות"
+        },
+        {
+          "time": "15:20–17:00",
+          "activity": "מנוחה בדירה"
+        },
+        {
+          "time": "17:00–19:30",
+          "activity": "מרכז וטיילת סטרזה — Lungolago, מרכז העיירה ונוף לאיים"
+        },
+        {
+          "time": "19:30",
+          "activity": "חזרה לדירה — ארוחה והתארגנות ליום הבא"
+        }
       ],
       "stops": [
-        { "name": "הגישה לחניה", "wazeAddress": "Via Giacomo Filippo Bolongaro, Stresa" },
-        { "name": "החניה הראשית", "wazeAddress": "Piazza Capucci, Stresa" },
-        { "name": "הדירה", "wazeAddress": "Via Anna Maria Bolongaro 14, Stresa" },
-        { "name": "חניון גיבוי", "wazeAddress": "Parcheggio Palacongressi, Stresa" },
-        { "name": "רציף השיט", "wazeAddress": "Imbarcadero di Stresa" }
+        {
+          "name": "הגישה לחניה",
+          "wazeAddress": "Via Giacomo Filippo Bolongaro, Stresa"
+        },
+        {
+          "name": "החניה הראשית",
+          "wazeAddress": "Piazza Capucci, Stresa"
+        },
+        {
+          "name": "הדירה",
+          "wazeAddress": "Via Anna Maria Bolongaro 14, Stresa"
+        },
+        {
+          "name": "חניון גיבוי",
+          "wazeAddress": "Parcheggio Palacongressi, Stresa"
+        },
+        {
+          "name": "רציף השיט",
+          "wazeAddress": "Imbarcadero di Stresa"
+        }
       ],
       "important": [
         "לוח הקיץ הרשמי של Laghi Navigazione תקף מ־29.3 עד 4.10.2026. מומלץ להגיע לקופה כ־20 דק' לפני ההפלגה — בקיץ עשויים להיות תורים.",
@@ -541,7 +1229,17 @@
         "Isola Bella פתוחה ב־4.8 מ־10:00, כניסה אחרונה 17:00, ארמון נסגר 17:30, גנים 18:00. לא מוסיפים Isola Madre כדי לשמור זמן רגוע לצ'ק־אין.",
         "במקרה גשם/רעמים: לוותר על השיט בבוקר, לנסוע לדירה ולהחליט מחדש לפי מצב האגם וההפלגות."
       ],
-      "rainPlan": "לוותר על השיט בבוקר, לנסוע ישירות לדירה, ולהחליט מחדש בהמשך היום לפי מצב האגם וזמינות ההפלגות."
+      "rainPlan": "לוותר על השיט בבוקר, לנסוע ישירות לדירה, ולהחליט מחדש בהמשך היום לפי מצב האגם וזמינות ההפלגות.",
+      "weatherRegion": "stresa",
+      "highlights": [
+        {
+          "name": "Isola Bella",
+          "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Isola%20Bella%20Palazzo%20Borromeo%20da%20Baveno.JPG?width=1200",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Isola%20Bella%20Palazzo%20Borromeo%20da%20Baveno.JPG",
+          "license": "CC0 — נחלת הכלל",
+          "description": "אי ארמון בארוקי מרהיב באגם מאג'ורה, שנבנה במאה ה-17 על ידי משפחת בורומאו כמתנה רומנטית (ומכאן שמו). הארמון עצמו כולל אולמות מפוארים, אוסף גובלנים ותקרות מצוירות, אך הכוכב האמיתי הוא הגן האיטלקי המדורג בעל 10 המדרגות שיורד ישר אל האגם, עם פסלים, מזרקות וטווסים לבנים המסתובבים חופשי בין השבילים. מהאי נשקף נוף פתוח לאלפים ולכפרי הדייגים הקטנים באגם — שילוב נדיר של אדריכלות מלכותית וטבע ים-תיכוני."
+        }
+      ]
     },
     {
       "id": 11,
@@ -555,23 +1253,62 @@
       "hotelId": "stresa",
       "weather": "",
       "schedule": [
-        { "time": "07:00–07:30", "activity": "קימה, ארוחת בוקר ואריזה סופית" },
-        { "time": "07:45", "activity": "צ'ק־אאוט מ־Le Ochette Di Stresa" },
-        { "time": "עד 08:00", "activity": "יציאה מסטרזה" },
-        { "time": "08:45–09:00", "activity": "תדלוק סמוך למלפנסה" },
-        { "time": "09:00–09:30", "activity": "החזרת הרכב ל־Locauto בטרמינל 2" },
-        { "time": "עד 10:00", "activity": "מעבר לטרמינל הטיסה, צ'ק־אין ובידוק" },
-        { "time": "13:05", "activity": "המראה לתל אביב" }
+        {
+          "time": "07:00–07:30",
+          "activity": "קימה, ארוחת בוקר ואריזה סופית"
+        },
+        {
+          "time": "07:45",
+          "activity": "צ'ק־אאוט מ־Le Ochette Di Stresa"
+        },
+        {
+          "time": "עד 08:00",
+          "activity": "יציאה מסטרזה"
+        },
+        {
+          "time": "08:45–09:00",
+          "activity": "תדלוק סמוך למלפנסה"
+        },
+        {
+          "time": "09:00–09:30",
+          "activity": "החזרת הרכב ל־Locauto בטרמינל 2"
+        },
+        {
+          "time": "עד 10:00",
+          "activity": "מעבר לטרמינל הטיסה, צ'ק־אין ובידוק"
+        },
+        {
+          "time": "13:05",
+          "activity": "המראה לתל אביב (מילאנו מלפנסה ← תל אביב)"
+        }
       ],
       "stops": [
-        { "name": "החזרת הרכב", "wazeAddress": "Locauto Rent, Malpensa Terminal 2" },
-        { "name": "תחנת דלק סמוכה", "wazeAddress": "לבחור לפי המסלול ביום הנסיעה" }
+        {
+          "name": "החזרת הרכב",
+          "wazeAddress": "Locauto, Aeroporto di Milano Malpensa T2, Milan, 21010"
+        },
+        {
+          "name": "תחנת דלק סמוכה",
+          "wazeAddress": "לבחור לפי המסלול ביום הנסיעה"
+        }
       ],
       "important": [
         "לפני מסירת הרכב: לצלם מכל הצדדים, את מד הדלק ואת הקילומטראז', ולהוציא את כל החפצים מתא המטען.",
-        "חשוב: לבדוק יום קודם מאיזה טרמינל יוצאת הטיסה. אם מטרמינל 1 — לעבור בשאטל שדה התעופה אחרי החזרת הרכב."
+        "מדיניות דלק: להחזיר עם אותה כמות דלק שהייתה במכל באיסוף — אחרת עמלת תדלוק 50.38€ בנוסף לעלות הדלק.",
+        "ההזמנה עצמה רשומה עד 15:00, כך שאין בעיה להחזיר מוקדם יותר בבוקר.",
+        "חשוב: לבדוק מראש מאיזה טרמינל יוצאת הטיסה. אם מטרמינל 1 — לעבור בשאטל שדה התעופה אחרי החזרת הרכב."
       ],
-      "rainPlan": null
+      "rainPlan": null,
+      "weatherRegion": "stresa",
+      "highlights": [
+        {
+          "name": "אגם מאג'ורה — מבט אחרון",
+          "image": "https://commons.wikimedia.org/wiki/Special:FilePath/LagoMaggiore.jpg?width=1200",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:LagoMaggiore.jpg",
+          "license": "CC BY-SA 3.0",
+          "description": "בדרך חזרה למלפנסה עדיין אפשר לתפוס דרך הרכב הצצות אחרונות אל האגם הארוך והרגוע, עם ההרים העוטפים אותו משני עבריו. סיום נעים ורגוע לטיול שהתחיל בהרי הגראובינדן ונגמר על שפת אחד האגמים היפים באיטליה — נקודה טובה לעצור רגע ולהיזכר בכל התחנות שהיו בדרך."
+        }
+      ]
     }
   ]
 }

@@ -7,8 +7,40 @@ const STORAGE_KEYS = {
   doneStops: "trip_done_stops",   // { "1": [0,2], "3": [1] }
   doneDays: "trip_done_days",     // { "1": true }
   notes: "trip_notes",            // { "1": "טקסט חופשי" }
-  weatherPlan: "trip_weather_plan" // { "4": "A" }
+  weatherPlan: "trip_weather_plan", // { "4": "A" }
+  textScale: "trip_text_scale"     // 0-4, index into FONT_SCALES
 };
+
+/* ---------------- Text size ---------------- */
+const FONT_SCALES = [0.875, 1, 1.125, 1.25, 1.4];
+
+function initTextScale(){
+  let idx = parseInt(localStorage.getItem(STORAGE_KEYS.textScale), 10);
+  if (isNaN(idx) || idx < 0 || idx >= FONT_SCALES.length) idx = 1;
+  document.documentElement.style.setProperty("--fs-scale", FONT_SCALES[idx]);
+  return idx;
+}
+
+function setTextScale(idx){
+  idx = Math.max(0, Math.min(FONT_SCALES.length - 1, idx));
+  document.documentElement.style.setProperty("--fs-scale", FONT_SCALES[idx]);
+  localStorage.setItem(STORAGE_KEYS.textScale, String(idx));
+  return idx;
+}
+
+function wireTextScaleButtons(){
+  const decBtn = document.getElementById("fontDec");
+  const incBtn = document.getElementById("fontInc");
+  if (!decBtn || !incBtn) return;
+  let idx = initTextScale();
+  const refreshDisabled = () => {
+    decBtn.disabled = idx === 0;
+    incBtn.disabled = idx === FONT_SCALES.length - 1;
+  };
+  refreshDisabled();
+  decBtn.addEventListener("click", () => { idx = setTextScale(idx - 1); refreshDisabled(); });
+  incBtn.addEventListener("click", () => { idx = setTextScale(idx + 1); refreshDisabled(); });
+}
 
 /* ---------------- Theme ---------------- */
 function initTheme(){
@@ -191,6 +223,8 @@ function registerServiceWorker(){
 /* ---------------- Page bootstrap ---------------- */
 function bootstrapPage(active){
   initTheme();
+  initTextScale();
+  wireTextScaleButtons();
   initOfflinePill();
   renderBottomNav(active);
   registerServiceWorker();

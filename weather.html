@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>עמוד יום — שוויץ 2026</title>
+<title>מזג אוויר — שוויץ 2026</title>
 <meta name="theme-color" content="#DC291E">
 <link rel="manifest" href="manifest.json">
 <link rel="apple-touch-icon" href="icons/icon-192.png">
@@ -12,8 +12,8 @@
 <body>
 
 <header class="topbar">
-  <a class="topbar__back" href="days.html" id="backIcon"></a>
-  <span class="topbar__title" id="topTitle">יום</span>
+  <a class="topbar__back" href="index.html" id="backIcon"></a>
+  <span class="topbar__title">מזג אוויר</span>
   <div class="topbar__actions">
     <button class="icon-btn icon-btn--text" id="fontDec" aria-label="הקטן טקסט">א-</button>
     <button class="icon-btn icon-btn--text" id="fontInc" aria-label="הגדל טקסט">א+</button>
@@ -21,14 +21,15 @@
   </div>
 </header>
 
-<main class="page" id="app">
-  <div class="empty" id="loading">
-    <p>טוען את היום…</p>
+<main class="page">
+  <div class="wx-tabs" id="wxTabs"></div>
+  <div id="wxContent">
+    <div class="empty"><p>טוען תחזית…</p></div>
   </div>
 </main>
 
 <script src="js/icons.js"></script>
 <script src="js/common.js"></script>
-<script src="js/day.js"></script>
+<script src="js/weather.js"></script>
 </body>
 </html>

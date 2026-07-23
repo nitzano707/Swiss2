@@ -6,6 +6,8 @@
   document.getElementById("iconHotels").innerHTML = ICONS.hotel;
   document.getElementById("iconParking").innerHTML = ICONS.parking;
   document.getElementById("iconInfo").innerHTML = ICONS.info;
+  document.getElementById("iconWeather").innerHTML = ICONS.cloud;
+  document.getElementById("iconCurrency").innerHTML = ICONS.currency;
 
   loadTripData().then(data => {
     const { trip, days, hotels } = data;

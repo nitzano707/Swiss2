@@ -59,11 +59,28 @@
       html += `<div class="notice">שבת — ללא רכב, ללא תחבורה ציבורית וללא צילום/ניווט. השתמשו בעמוד הזה ובכתובות שנשמרו מראש לפני כניסת השבת.</div>`;
     }
 
+    // Site highlights (photos + descriptions)
+    if (day.highlights && day.highlights.length){
+      html += `<div class="eyebrow">כדאי להכיר — האתרים של היום</div>`;
+      html += day.highlights.map(h => `
+        <div class="highlight-card">
+          <img src="${h.image}" alt="${h.name}" loading="lazy"
+               onerror="this.closest('.highlight-card').classList.add('img-failed')">
+          <div class="highlight-card__body">
+            <div class="highlight-card__name">${h.name}</div>
+            <p class="highlight-card__desc">${h.description}</p>
+            <a class="highlight-card__credit" href="${h.sourceUrl}" target="_blank" rel="noopener">תמונה: Wikimedia Commons · ${h.license}</a>
+          </div>
+        </div>
+      `).join("");
+    }
+
     // Weather
     if (day.weather){
       html += `
         <div class="eyebrow">מזג אוויר</div>
         <div class="weather-box">${ICONS.cloud}<p>${day.weather}</p></div>
+        <a class="btn btn--sm" href="weather.html?region=${day.weatherRegion || ''}" style="margin-bottom:14px;">${ICONS.cloud} תחזית עדכנית בזמן אמת</a>
       `;
     }
 

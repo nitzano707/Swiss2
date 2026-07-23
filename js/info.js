@@ -16,9 +16,16 @@
       {
         title: "רכב שכור",
         body: `<ul>
-          <li><strong>חברה:</strong> ${info.car.company}</li>
+          <li><strong>חברה:</strong> ${info.car.company}${info.car.driver ? " · " + info.car.driver : ""}</li>
+          ${info.car.bookingRef ? `<li>${info.car.bookingRef}</li>` : ""}
+          ${info.car.vehicle ? `<li><strong>הרכב:</strong> ${info.car.vehicle}</li>` : ""}
           <li><strong>איסוף:</strong> ${info.car.pickup}</li>
           <li><strong>החזרה:</strong> ${info.car.dropoff}</li>
+          ${info.car.insurance ? `<li><strong>ביטוח והשתתפות עצמית:</strong> ${info.car.insurance}</li>` : ""}
+          ${info.car.fuel ? `<li><strong>מדיניות דלק:</strong> ${info.car.fuel}</li>` : ""}
+          ${info.car.payment ? `<li><strong>אמצעי תשלום:</strong> ${info.car.payment}</li>` : ""}
+          ${info.car.documents ? `<li><strong>מסמכים נדרשים:</strong> ${info.car.documents}</li>` : ""}
+          ${info.car.contact ? `<li><strong>טלפונים:</strong> ${info.car.contact}</li>` : ""}
           <li>${info.car.notes}</li>
         </ul>`
       },
